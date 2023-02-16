@@ -1,7 +1,6 @@
 import "../style/sidenav.css";
 import React from "react";
 import { BsFillHouseFill } from "react-icons/bs";
-import { BsFillCalendarFill } from "react-icons/bs";
 import { FaUserFriends } from "react-icons/fa";
 import { BsFillBookFill } from "react-icons/bs";
 import { FaUserGraduate } from "react-icons/fa";
@@ -18,42 +17,39 @@ function sidenav() {
               <BsFillHouseFill />
             </a>
           </div>
-          <div className="flexbox-item flexbox-item-2">
-            <a href="#">
-              <BsFillCalendarFill />
-            </a>
-          </div>
-          <div className="flexbox-item flexbox-item-3">
-            <a href="profilepage">
-              <FaUserFriends />
-            </a>
-          </div>
-          <div className="flexbox-item flexbox-item-4">
-            <a href="registry">
-              <BsFillBookFill />
-            </a>
-          </div>
+        </div>
+        <div className="flexbox-item flexbox-item-3">
+          <a href="profilepage">
+            <FaUserFriends />
+          </a>
+        </div>
+        <div className="flexbox-item flexbox-item-4">
+          <a href="registry">
+            <BsFillBookFill />
+          </a>
+        </div>
 
-          <div className="flexbox-item flexbox-item-5">
+        <div className="flexbox-item flexbox-item-5">
+          <a href="classespage">
             <FaUserGraduate />
-          </div>
+          </a>
+        </div>
 
-          <div className="small-icons">
-            <div className="help-icon">
-              <AiFillQuestionCircle />
-            </div>
-            <div className="help-icon">
-              <a href="/">
-                <BiExit />
-              </a>
-            </div>
-            <br />
-            <a href="#" className="more-abt">
-              more about us
+        <div className="small-icons">
+          <div className="help-icon">
+            <AiFillQuestionCircle />
+          </div>
+          <div className="help-icon">
+            <a href="/">
+              <BiExit />
             </a>
           </div>
           <br />
+          <a href="#" className="more-abt">
+            more about us
+          </a>
         </div>
+        <br />
       </div>
     </div>
   );

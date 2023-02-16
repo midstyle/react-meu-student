@@ -8,6 +8,8 @@ import Profilepage from "./components/jsx/profilepage.jsx";
 import Profilepageadd from "./components/jsx/profilepageadd.jsx";
 import Registry from "./components/jsx/registry";
 import Registryinformation from "./components/jsx/registryinformation";
+import Student_Classes from "./components/jsx/student&classes";
+import Students from "./components/jsx/students";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           <Route path="profilepageadd" element={<Profilepageadd />} />
           <Route path="registry" element={<Registry />} />
           <Route path="registryinformation" element={<Registryinformation />} />
+          <Route path="classespage" element={<Student_Classes />} />
+          <Route path="students" element={<Students />} />
         </Routes>
       </Router>
     </>
